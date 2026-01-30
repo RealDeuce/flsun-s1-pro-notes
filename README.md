@@ -20,7 +20,8 @@ printing, and not even close for decent PC printing. I expect to insulate the wa
 and be sure to get as much of the motor as possible in the "cold" part of the electronics bay at the top.
 
 I also plan to have the turbo fan pull air from the chamber rather than outside.  I hate PLA, so I don't need the insane
-level of cooling the existing setup can get, I value the chamber temp more.
+level of cooling the existing setup can get, I value the chamber temp more. This will likely kill the turbo fan and I'll
+have to find some way of moving hot air.
 
 ### Issues
 
