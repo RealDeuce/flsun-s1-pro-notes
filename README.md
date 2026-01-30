@@ -41,6 +41,32 @@ Diameter is 330mm
 Tab is 90mm wide with broad radius  
 Diameter + tab is 350mm  
 
+#### Load cells
+
+Bed mesh probing is *very* variable.  Investigating now.
+
+##### Klipper shutdown
+
+When I run `PROBE_ACCURACY`, I get the following error and Klippy restarts:
+```
+[2026-01-30 16:46:02,638][WARNING] Internal error on command:"PROBE_ACCURACY"
+[2026-01-30 16:46:02,648][ERROR] Internal Error on WebRequest: gcode/script
+Traceback (most recent call last):
+  File "/home/pi/klipper/klippy/webhooks.py", line 252, in _process_request
+    func(web_request)
+  File "/home/pi/klipper/klippy/webhooks.py", line 428, in _handle_script
+    self.gcode.run_script(web_request.get_str('script'))
+  File "/home/pi/klipper/klippy/gcode.py", line 223, in run_script
+    self._process_commands(script.split('\n'), need_ack=False)
+  File "/home/pi/klipper/klippy/gcode.py", line 205, in _process_commands
+    handler(gcmd)
+  File "/home/pi/klipper/klippy/gcode.py", line 138, in <lambda>
+    func = lambda params: origfunc(self._get_extended_params(params))
+  File "/home/pi/klipper/klippy/extras/probe.py", line 236, in cmd_PROBE_ACCURACY
+    pos = self._probe(speed)
+TypeError: _probe() missing 2 required positional arguments: 'gcmd' and 'samples_retries'
+```
+
 ### Chamber Temps
 
 So far I've only printed PLA, but it's pretty clear the stock chamber will never get toasty enough for really good ABS
