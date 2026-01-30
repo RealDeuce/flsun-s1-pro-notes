@@ -67,6 +67,24 @@ Traceback (most recent call last):
 TypeError: _probe() missing 2 required positional arguments: 'gcmd' and 'samples_retries'
 ```
 
+Fix:
+
+```
+--- klippy/extras/probe.py.flsun	2026-01-30 17:35:15.898430548 -0500
++++ klippy/extras/probe.py	2026-01-30 17:36:03.555003856 -0500
+@@ -233,7 +233,7 @@
+         positions = []
+         while len(positions) < sample_count:
+             # Probe position
+-            pos = self._probe(speed)
++            pos = self._probe(speed, gcmd, 0)
+             positions.append(pos)
+             # Retract
+             liftpos = [None, None, pos[2] + sample_retract_dist]
+```
+
+It appears that FLSun has done some stuff to probing that needs to be analyzed.
+
 ### Chamber Temps
 
 So far I've only printed PLA, but it's pretty clear the stock chamber will never get toasty enough for really good ABS
@@ -118,6 +136,8 @@ and `sudo passwd pi` worked.  I didn't dig out what the root password was, but I
 present.  Manually making the change fixes `DELTA_ANALYZE`.
 
 There's some magic PA calculator thing.
+
+Seems to be from around `06a31222` (Jun, 2022)
 
 #### Config
 
