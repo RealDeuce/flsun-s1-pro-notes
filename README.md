@@ -5,7 +5,7 @@
 Overall, the hardware is pretty darn good. 36VDC.
 
 The CHT-style geometry in the hotend seems to make it very hard to impossible to eliminate stringing using standard methods.
-I'm likely going to see if I can kill it with gofast, but no luck so far.  I'm lokely going to put a
+I'm likely going to see if I can kill it with gofast, but no luck so far.  I'm planning to put a
 [Chube Air](https://chubehotens.com/) and an [LGX Lite](https://www.bondtech.se/product/lgx-lite-large-gears-extruder/)
 in there relatively soon.
 
@@ -27,7 +27,7 @@ Just removing that line fixes the problem. However, `apt reinstall bash-completi
 
 `lsusb` is a garbage file. `apt reinstall usbtools` fixes it.
 
-`/etc/rc.local` does some crazy crap, removingthe following lines is a good idea:
+`/etc/rc.local` does some crazy crap, removing the following lines is a good idea:
 ```
 chown -R pi:pi /home/pi
 chmod 777 -R /home/pi
