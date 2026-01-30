@@ -98,6 +98,8 @@ plate yet.
 Default config has an extruder `hold_current` which is generally not a good idea because detent forces can cause uncommanded
 movement when changing current from one to the other. TODO: Just turn off the extruder motor when not printing/extruding.
 
+Various things are saved in `~/savedVariables1.cfg`. I went looking for this to find where the Z offset was stored.
+
 ### Mainsail
 
 The version of the push streamer crashes periodically, and it's clear someone knew about this since there's a restart thing
