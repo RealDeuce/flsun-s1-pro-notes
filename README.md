@@ -58,7 +58,7 @@ as pi, I couldn't use `passwd` to change my password but luckily `pi` is in the 
 and `sudo passwd pi` worked.  I didn't dig out what the root password was, but I changed that as well just in case.
 
 ### Klipper
-`DELTA_ANALYZE` broken due to running python3 and not having
+[`DELTA_ANALYZE`](https://www.klipper3d.org/Delta_Calibrate.html) broken due to running python3 and not having
 [commit 7f9ea23](https://github.com/Klipper3d/klipper/commit/7f9ea231b7b9e0f76bf2c5ec02f8af89e7017f76)
 present.  Manually making the change fixes `DELTA_ANALYZE`.
 
