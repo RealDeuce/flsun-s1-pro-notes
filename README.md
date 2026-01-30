@@ -95,6 +95,9 @@ Presumably updating would solve the issue.
 
 The hardware has support for video encoding, but Mailsail is using MJPEG for the webcam.
 
+There's some FLSun changes in `~/klipper/klippy/extras/bed_mesh.py` that adds extra probe points around the edge of the bed,
+but Mainsail does not seem to have a corresponding change, resulting in the Mainsail heightmap being basically useless.
+
 ### References
 
 [FLSun S1 Pro "wiki"](https://wiki.flsun3d.com/en/S1Pro)  
