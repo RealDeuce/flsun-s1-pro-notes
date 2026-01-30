@@ -4,6 +4,28 @@
 
 Overall, the hardware is pretty darn good. 36VDC.
 
+Delta calibration and `DELTA_ANALYZE` show top-notch build quality with good precision:
+
+```
+[printer]
+delta_radius = 182.802597
+
+[stepper_a]
+angle = 209.631916
+arm_length = 383.394068
+position_endstop = 431.100973
+
+[stepper_b]
+angle = 329.662331
+arm_length = 385.519306
+position_endstop = 430.488460
+
+[stepper_c]
+angle = 90.000000
+arm_length = 383.153061
+position_endstop = 430.122331
+```
+
 The CHT-style geometry in the hotend seems to make it very hard to impossible to eliminate stringing using standard methods.
 I'm likely going to see if I can kill it with gofast, but no luck so far.  I'm planning to put a
 [Chube Air](https://chubehotens.com/) and an [LGX Lite](https://www.bondtech.se/product/lgx-lite-large-gears-extruder/)
