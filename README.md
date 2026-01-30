@@ -118,7 +118,12 @@ The hardware has support for video encoding, but Mailsail is using MJPEG for the
 There's some FLSun changes in `~/klipper/klippy/extras/bed_mesh.py` that adds extra probe points around the edge of the bed,
 but Mainsail does not seem to have a corresponding change, resulting in the Mainsail heightmap being basically useless.
 
-### References
+### Screen interface
+
+The Bed Level calibration does a `DELTA_CALIBRATE` so if you just want to update your mesh, it's the wrong thing. Use the
+`BED_LEVEL_2` macro from Mainsail.
+
+## References
 
 [FLSun S1 Pro "wiki"](https://wiki.flsun3d.com/en/S1Pro)  
 [FLSUN S1 Open Source Edition](https://guilouz.github.io/FLSUN-S1-Open-Source-Edition/about/)  
