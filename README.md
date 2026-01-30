@@ -13,6 +13,20 @@ There's a hardened steel nozzle, but the heat block with the CHT geometry in it 
 and need replacement very quickly if you actually printed anything that needed hardened steel.  I've swapped mine for an
 [Undertaker nozzle](https://west3d.com/products/west3ds-undertaker-tungsten-carbide-nozzle) from West3D.
 
+### Chamber Temps
+
+So far I've only printed PLA, but it's pretty clear the stock chamber will never get toasty enough for really good ABS
+printing, and not even close for decent PC printing. I expect to insulate the walls in the inside, likely using PIR panels,
+and be sure to get as much of the motor as possible in the "cold" part of the electronics bay at the top.
+
+I also plan to have the turbo fan pull air from the chamber rather than outside.  I hate PLA, so I don't need the insane
+level of cooling the existing setup can get, I value the chamber temp more.
+
+### Issues
+
+I had an issue where the A motor would skip steps and the printer would shut down. Recalibrating the motors fixed it,
+hopefully for good.
+
 ## Software
 
 ### Linux
@@ -57,3 +71,9 @@ running as video9-device.service.
 Presumably updating would solve the issue.
 
 The hardware has support for video encoding, but Mailsail is using MJPEG for the webcam.
+
+### References
+
+[FLSun S1 Pro "wiki"](https://wiki.flsun3d.com/en/S1Pro)  
+[FLSUN S1 Open Source Edition](https://guilouz.github.io/FLSUN-S1-Open-Source-Edition/about/)
+
