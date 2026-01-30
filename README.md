@@ -28,7 +28,7 @@ position_endstop = 430.122331
 
 The CHT-style geometry in the hotend seems to make it very hard to impossible to eliminate stringing using standard methods.
 I'm likely going to see if I can kill it with gofast, but no luck so far.  I'm planning to put a
-[Chube Air](https://chubehotens.com/) and an [LGX Lite](https://www.bondtech.se/product/lgx-lite-large-gears-extruder/)
+[Chube Air](https://chubehotends.com/) and an [LGX Lite](https://www.bondtech.se/product/lgx-lite-large-gears-extruder/)
 in there relatively soon.
 
 There's a hardened steel nozzle, but the heat block with the CHT geometry in it seems to be aluminum, so that would blow out
