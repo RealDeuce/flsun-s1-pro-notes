@@ -53,8 +53,8 @@ The first one isn't completely gross, but the other three are. Notably, the seco
 SSH using a public key.
 
 Once you update to the latest firmware, `sshd` is running with a user of `pi` and a password of `1`.  Further, logging in
-as pi, I couldn't use `passwd` to change my password but luckily `pi` is in `sudoers`, and `sudo passwd pi` worked.
-I didn't dig out what the root password was, but I changed that as well just in case.
+as pi, I couldn't use `passwd` to change my password but luckily `pi` is in the `sudo` group which is in `/etc/sudoers`,
+and `sudo passwd pi` worked.  I didn't dig out what the root password was, but I changed that as well just in case.
 
 ### Klipper
 `DELTA_ANALYZE` broken due to running python3 and not having
