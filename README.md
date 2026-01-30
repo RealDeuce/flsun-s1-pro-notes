@@ -95,6 +95,9 @@ The `run_current` for the extruder stepper is 1.2A, which seems unlikely to be a
 Guilouz printer.cfg.  This *still* seems on the high side for what the motor is, but I haven't dug in and found the motor
 plate yet.
 
+Default config has an extruder `hold_current` which is generally not a good idea because detent forces can cause uncommanded
+movement when changing current from one to the other. TODO: Just turn off the extruder motor when not printing/extruding.
+
 ### Mainsail
 
 The version of the push streamer crashes periodically, and it's clear someone knew about this since there's a restart thing
