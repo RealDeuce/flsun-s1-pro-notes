@@ -43,7 +43,8 @@ Diameter + tab is 350mm
 
 #### Load cells
 
-Bed mesh probing is *very* variable.  Investigating now.
+Bed mesh probing is *very* variable.  I've done a highly precise bed mesh using tight tolerance and many many retries,
+If this works, it should be rolled into the BED_LEVEL_2 macro.
 
 ##### Klipper shutdown
 
