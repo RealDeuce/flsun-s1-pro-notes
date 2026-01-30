@@ -35,6 +35,12 @@ There's a hardened steel nozzle, but the heat block with the CHT geometry in it 
 and need replacement very quickly if you actually printed anything that needed hardened steel.  I've swapped mine for an
 [Undertaker nozzle](https://west3d.com/products/west3ds-undertaker-tungsten-carbide-nozzle) from West3D.
 
+### Build plate
+
+Diameter is 330mm  
+Tab is 90mm wide with broad radius  
+Diameter + tab is 350mm  
+
 ### Chamber Temps
 
 So far I've only printed PLA, but it's pretty clear the stock chamber will never get toasty enough for really good ABS
