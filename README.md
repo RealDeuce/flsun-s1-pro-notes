@@ -91,7 +91,9 @@ There's some magic PA calculator thing.
 
 There's a laser pin in the config.  This looks like something from the pre-Pro S1 that's not there anymore.
 
-The `run_current` for the extruder stepper is 1.2A, which seems unlikely to be a good idea.
+The `run_current` for the extruder stepper is 1.2A, which seems unlikely to be a good idea.  Changed to 0.8 as in the
+Guilouz printer.cfg.  This *still* seems on the high side for what the motor is, but I haven't dug in and found the motor
+plate yet.
 
 ### Mainsail
 
@@ -108,5 +110,5 @@ but Mainsail does not seem to have a corresponding change, resulting in the Main
 ### References
 
 [FLSun S1 Pro "wiki"](https://wiki.flsun3d.com/en/S1Pro)  
-[FLSUN S1 Open Source Edition](https://guilouz.github.io/FLSUN-S1-Open-Source-Edition/about/)
-
+[FLSUN S1 Open Source Edition](https://guilouz.github.io/FLSUN-S1-Open-Source-Edition/about/)  
+[Guilouz printer.cfg](https://github.com/Guilouz/Klipper-Flsun-S1/blob/master/config/FLSUN%20S1/printer.cfg)
