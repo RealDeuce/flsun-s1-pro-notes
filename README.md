@@ -103,6 +103,9 @@ have to find some way of moving hot air.
 I had an issue where the A motor would skip steps and the printer would shut down. Recalibrating the motors fixed it,
 hopefully for good.
 
+About one in three times when I load a spool of filament, the end catches in the sensor and flexes the PTFE tube out of the
+drybox. It looks like a simple clip to hold the tube straight will keep that from happening. TODO.
+
 ## Software
 
 ### Linux
