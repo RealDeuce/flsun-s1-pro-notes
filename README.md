@@ -26,8 +26,10 @@ arm_length = 383.153061
 position_endstop = 430.122331
 ```
 
-The CHT-style geometry in the hotend seems to make it very hard to impossible to eliminate stringing using standard methods.
-I'm likely going to see if I can kill it with gofast, but no luck so far.  I'm planning to put a
+The CHT-style geometry in the hotend seems to make it a bit more difficult to eliminate stringing. Keep at it, a bit of
+retract and wipe will clear it up with enough work.
+
+I'm planning to put a
 [Chube Air](https://chubehotends.com/) and an [LGX Lite](https://www.bondtech.se/product/lgx-lite-large-gears-extruder/)
 in there relatively soon.
 
