@@ -104,7 +104,7 @@ I had an issue where the A motor would skip steps and the printer would shut dow
 hopefully for good.
 
 About one in three times when I load a spool of filament, the end catches in the sensor and flexes the PTFE tube out of the
-drybox. It looks like a simple clip to hold the tube straight will keep that from happening. TODO.
+drybox. It looks like a simple clip to hold the tube straight will keep that from happening.  Cleap available on [Printables](https://www.printables.com/model/1579001-dry-box-feed-tube-support-for-flsun-s1-pro)
 
 ## Software
 
