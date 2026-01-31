@@ -98,6 +98,15 @@ I also plan to have the turbo fan pull air from the chamber rather than outside.
 level of cooling the existing setup can get, I value the chamber temp more. This will likely kill the turbo fan and I'll
 have to find some way of moving hot air.
 
+### Drybox
+
+It appears that the fan and heater are controlled via pins on the MCU, but status is read via /dev/ttyS4 in a json-rpc
+format at 19200, 8-N-1.
+
+```
+{"jsonrpc":"2.0","result":{"drybox":{"temperature":27.0,"humidity":21.0,"weight":20}},"id":1}
+```
+
 ### Issues
 
 I had an issue where the A motor would skip steps and the printer would shut down. Recalibrating the motors fixed it,
