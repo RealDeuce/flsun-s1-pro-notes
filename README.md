@@ -1,5 +1,14 @@
 # My notes on my FLSun S1 Pro
 
+I've started using Kalico with the Open Source Edition.
+
+## Open Source Edition
+
+### Enhanced calibrate
+
+Using `DELTA_CALIBRATE ENHANCED_METHOD=1` gets me results that appear to be slightly better than the `DELTA_ANALYZE` on my
+printer.
+
 ## Hardware
 
 Overall, the hardware is pretty darn good. 36VDC.
@@ -114,6 +123,9 @@ hopefully for good.
 
 About one in three times when I load a spool of filament, the end catches in the sensor and flexes the PTFE tube out of the
 drybox. It looks like a simple clip to hold the tube straight will keep that from happening.  Cleap available on [Printables](https://www.printables.com/model/1579001-dry-box-feed-tube-support-for-flsun-s1-pro)
+
+While I'm printing large so the outer heater is used, the outer heater sits around 100% and the inner one is usually zero
+and occasionally bumps up to 8% for half a second. I need to take a closer look at this.
 
 ## Software
 
