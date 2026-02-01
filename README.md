@@ -2,6 +2,9 @@
 
 I've started using Kalico with the Open Source Edition.
 
+[Kalico Branch](https://github.com/RealDeuce/klipper/tree/flsun-s1-kalico)  
+[Klipper Branch](https://github.com/RealDeuce/klipper/tree/flsun-s1-klipper)  
+
 ## Open Source Edition
 
 ### Enhanced calibrate
