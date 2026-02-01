@@ -12,6 +12,15 @@ I've started using Kalico with the Open Source Edition.
 Using `DELTA_CALIBRATE ENHANCED_METHOD=1` gets me results that appear to be slightly better than the `DELTA_ANALYZE` on my
 printer.
 
+### Bed heating
+
+The auto bed heating thing doesn't seem to be working properly on my Kalico branch
+
+### Cam controls
+
+The macros seem to be hardcoded for /dev/video9, which is what the stock config uses, but the webcam service is using
+/dev/video0 now.
+
 ## Hardware
 
 Overall, the hardware is pretty darn good. 36VDC.
@@ -59,6 +68,9 @@ Diameter + tab is 350mm
 
 Bed mesh probing is *very* variable.  I've done a highly precise bed mesh using tight tolerance and many many retries,
 If this works, it should be rolled into the BED_LEVEL_2 macro.
+
+The load cells seems to have issues at higher temperatures as well, always being triggered. I wonder if putting a weight
+on the bed when powering on would change the trigger point?
 
 ##### Klipper shutdown
 
